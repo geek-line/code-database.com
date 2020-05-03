@@ -1,2 +1,2 @@
-# code-database
-[code-database.com](https://code-database.com/knowledges)で使用しているリポジトリです。
+# code-database.com
+[code-database.com](https://code-database.com/knowledges)の記事内で使用しているリポジトリです。
