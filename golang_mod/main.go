@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/geek-line/code-database.com/tree/develop/golang_mod/sum"
+	"github.com/geek-line/sum"
 )
 
 func main() {
