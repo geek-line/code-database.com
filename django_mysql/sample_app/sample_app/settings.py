@@ -77,8 +77,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', 
         'NAME': 'sample_app',
-        'USER': 'root',  # データベースを作成したユーザー名
-        'PASSWORD': 'Reibo1998@',  # ログインするためのパスワード
+        'USER': 'root',  
+        'PASSWORD': 'Reibo1998@',  
     }
 }
 
