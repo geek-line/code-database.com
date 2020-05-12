@@ -1,5 +1,5 @@
 # mysql_tag
-code-database.comの記事内で使用しているレポジトリです。
+code-database.comの[MySQLでブログで用いるタグ機能のデータベースをテーブル設計から実装まで解説](https://code-database.com/knowledges/86)で使用したSQLコマンドをsqlファイルにして公開しています。
 
 ## 開発環境
 - MySQL 8.0.19
