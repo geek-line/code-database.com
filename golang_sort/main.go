@@ -17,11 +17,13 @@ type ByAge []Person
 func (arr ByAge) Len() int {
 	return len(arr)
 }
-func (arr ByAge) Swap(i, j int) {
-	arr[i], arr[j] = arr[j], arr[i]
-}
+
 func (arr ByAge) Less(i, j int) bool {
 	return arr[i].Age < arr[j].Age
+}
+
+func (arr ByAge) Swap(i, j int) {
+	arr[i], arr[j] = arr[j], arr[i]
 }
 
 func main() {
