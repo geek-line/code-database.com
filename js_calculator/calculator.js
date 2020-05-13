@@ -3,7 +3,6 @@ const textbox2 = document.getElementById("textbox2")
 const type = document.getElementById("type")
 const display = document.getElementById("answer")
 
-let firstNum = 0;
 let secondNum = 0;
 let ans = ''
 let kigou = "";
@@ -41,11 +40,10 @@ function run() {
 
 function refresh() {
     isInit = true;
-    firstNum = 0;
     secondNum = 0;
     ans = 0;
     kigou = "";
-    document.getElementById("type").innerHTML = "";
+    type.innerHTML = "";
     display.innerHTML = 0;
     textbox1.value = "";
     textbox2.value = "";
