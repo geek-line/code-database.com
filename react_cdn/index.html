@@ -25,7 +25,6 @@
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
     <script type="text/babel">
         'use strict';
-        const e = React.createElement;
         class VoteButton extends React.Component {
             constructor(props) {
                 super(props);
@@ -51,7 +50,7 @@
         document.querySelectorAll('.vote_button_container')
             .forEach(domContainer => {
                 ReactDOM.render(
-                    e(VoteButton),
+                    React.createElement(VoteButton),
                     domContainer
                 );
             });
