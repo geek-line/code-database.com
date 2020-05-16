@@ -52,9 +52,6 @@ const CartItem = {
         />
     </div>
     `,
-    computed: {
-
-    },
 }
 
 const CartBox = {
