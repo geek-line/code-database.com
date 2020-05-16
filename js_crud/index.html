@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <link rel='stylesheet' href='./style.css'>
+    <title>インデックスページ</title>
+</head>
+
+<body>
+    <div class="container">
+        <form autocomplete="off">
+            <div>
+                <label>名前</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div>
+                <label>年齢</label>
+                <input type="number" name="age" id="age">
+            </div>
+            <div>
+                <label>性別</label>
+                <select id="sex" name='sex'>
+                    <option value='選択しない'>選択しない</option>
+                    <option value='男性'>男性</option>
+                    <option value='女性'>女性</option>
+                </select>
+            </div>
+            <div>
+                <input class="btn btn-blue" onclick="onFormSubmit()" type="button" value="フォームを送信">
+            </div>
+        </form>
+    </div>
+    <div id='display'></div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
