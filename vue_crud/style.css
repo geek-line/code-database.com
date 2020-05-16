@@ -1,0 +1,83 @@
+.products-box-container{
+  width: 60%;
+  display: inline-block;
+  vertical-align:  top;
+}
+
+.card-container{
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.cart-item-container{
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.rich-item-card-title{
+  display: inline-block;
+}
+
+.rich-item-card-price{
+  display: inline-block;
+}
+
+.rich-item-card-img{
+  width: 10%;
+  height: auto;
+  display: inline-block;
+  vertical-align:  top;
+}
+
+.rich-item-card-description{
+  width: 85%;
+  display: inline-block;
+  vertical-align:  top;
+}
+
+.cart-box-container{
+  display: inline-block;
+  vertical-align:  top;
+  width: 30%;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.switch-btn{
+  padding: 6px 10px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background: #f0f0f0;
+  margin-bottom: -1px;
+  margin-right: -1px;
+}
+
+.btn-square {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #668ad8;/*ボタン色*/
+  color: #FFF;
+  border-radius: 3px;
+}
+
+.cart-item-title{
+  display: inline-block;
+}
+
+.cart-item-input{
+    display: inline-block;
+    width: 20%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
