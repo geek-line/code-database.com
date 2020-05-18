@@ -20,7 +20,7 @@ export default class CartItem extends React.Component {
                 <input type="number"
                     className='cart-item-input'
                     value={this.props.cartItem.quantity}
-                    onInput={this.changeNum}
+                    onChange={this.changeNum}
                 />
             </div>
         )
