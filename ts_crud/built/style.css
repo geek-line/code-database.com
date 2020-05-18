@@ -1,0 +1,28 @@
+li{
+    list-style: none;
+}
+
+.container{
+    border: 1px solid #ccc;
+padding: 10px;
+}
+
+.btn{
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #FFF;
+  border-radius: 3px;
+}
+
+.btn-blue{
+    background: #668ad8;/*ボタン色*/
+}
+
+.btn-orange{
+    background-color: #fd9535;
+}
+
+.btn-green{
+    background-color: #03864c
+}
