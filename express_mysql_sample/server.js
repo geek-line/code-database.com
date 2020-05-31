@@ -8,7 +8,7 @@ app.get('/api/hello', (req, res) => {
     const connection = mysql.createConnection({
         host: 'localhost',
         user: 'root',
-        password: 'Reibo1998@',
+        password: '*********',
         database: 'express_mysql_sample'
     });
     connection.connect();
