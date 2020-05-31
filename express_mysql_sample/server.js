@@ -16,7 +16,7 @@ app.get('/api/hello', (req, res) => {
         if (error) throw error;
         console.log(results[0]);
         res.send(results[0].message);
-        connection.destroy();
+        connection.end();
     });
 });
 
