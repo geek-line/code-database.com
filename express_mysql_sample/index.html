@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>express_mysql_sample</title>
+</head>
+<body>
+    <button id="submit_btn">こんにちは</button>
+</body>
+</html>
+
+<script>
+    document.getElementById('submit_btn').addEventListener('click', function(){
+        xhr = new XMLHttpRequest();
+        xhr.open('GET', '/api/hello');
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4) {
+                if (xhr.status === 200) {
+                    alert(xhr.response);
+                } else {
+                    alert('データが正常に送れませんでした');
+                }
+            }
+        }
+        xhr.send();
+    });
+</script>
