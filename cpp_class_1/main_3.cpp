@@ -12,6 +12,9 @@ public:
         name = n;
         level = l;
     }
+    void levelUp(){
+        level += 1;
+    }
     int getIndex(){
         return index;
     }
@@ -20,9 +23,6 @@ public:
     }
     int getLevel(){
         return level;
-    }
-    void levelUp(){
-        level += 1;
     }
 };
 
