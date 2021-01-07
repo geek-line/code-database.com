@@ -1,8 +1,8 @@
 <template>
 <div class="products-box-container">
     <rich-item-card 
-        v-for="(product,index) in products" 
-        :key="index"
+        v-for="product in products" 
+        :key="product.id"
         v-on:addCart="$emit('addCart',product)" 
         :product="product"
     />
